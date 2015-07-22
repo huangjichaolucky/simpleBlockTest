@@ -14,6 +14,7 @@
 		B13B9E1A1B5CE86200E1A85D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13B9E191B5CE86200E1A85D /* Images.xcassets */; };
 		B13B9E1D1B5CE86200E1A85D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13B9E1B1B5CE86200E1A85D /* LaunchScreen.xib */; };
 		B13B9E291B5CE86200E1A85D /* simpleBlockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13B9E281B5CE86200E1A85D /* simpleBlockTestTests.m */; };
+		B13B9E341B5CEC2D00E1A85D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13B9E331B5CEC2D00E1A85D /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B13B9E221B5CE86200E1A85D /* simpleBlockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleBlockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13B9E271B5CE86200E1A85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B13B9E281B5CE86200E1A85D /* simpleBlockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleBlockTestTests.m; sourceTree = "<group>"; };
+		B13B9E321B5CEC2D00E1A85D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		B13B9E331B5CEC2D00E1A85D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B13B9E111B5CE86200E1A85D /* AppDelegate.m */,
 				B13B9E131B5CE86200E1A85D /* ViewController.h */,
 				B13B9E141B5CE86200E1A85D /* ViewController.m */,
+				B13B9E321B5CEC2D00E1A85D /* MyViewController.h */,
+				B13B9E331B5CEC2D00E1A85D /* MyViewController.m */,
 				B13B9E161B5CE86200E1A85D /* Main.storyboard */,
 				B13B9E191B5CE86200E1A85D /* Images.xcassets */,
 				B13B9E1B1B5CE86200E1A85D /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				B13B9E151B5CE86200E1A85D /* ViewController.m in Sources */,
 				B13B9E121B5CE86200E1A85D /* AppDelegate.m in Sources */,
+				B13B9E341B5CEC2D00E1A85D /* MyViewController.m in Sources */,
 				B13B9E0F1B5CE86200E1A85D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
